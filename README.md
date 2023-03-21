@@ -5,4 +5,4 @@ Dieser Kommentar wurde durch Domenic erstellt
 
 Weitere Kommentar (Domenic)
 
-Hi there (Sascha)
+Hi there (Sascha)!
