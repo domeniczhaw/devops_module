@@ -1,0 +1,8 @@
+from sklearn.feature_extraction.text import CountVectorizer
+vect = CountVectorizer().fit(text_train)
+X_train = vect.transform(text_train)
+print("X_train:\n{}".format(X_train.toarray()))
+
+feature_names = vect.get_feature_names()
+print("Number of features: {}".format(len(feature_names)))
+print("First 20 features:\n{}".format(feature_names[:20]))
